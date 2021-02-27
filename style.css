@@ -1,0 +1,46 @@
+.text {
+  text-align: center;
+}
+#hangmanContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#displayLetters {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#displayLetters span {
+  margin: 5px;
+  width: 15px;
+  border-bottom: 3px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+#btn {
+  display: block;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+#btn:hover {
+  background-color: white;
+  color: #000;
+}
+.btn-div {
+  background-color: aliceblue;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  width: 400px;
+  height: 250px;
+}
+.hide {
+  display: none;
+}
